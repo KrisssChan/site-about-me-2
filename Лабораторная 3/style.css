@@ -1,0 +1,163 @@
+h1 {
+    position: relative;
+    text-align: center;
+    padding-top: 12px;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+}
+
+body {
+    background-color: lavender;
+    margin: 0px;
+}
+
+.vizit{
+    background-color: rgba(193, 186, 221, 0.486);
+    width: 100%;
+    height: 70px;
+    margin-top: -22px;
+}
+
+p{
+margin-left: 50px;
+font-size: 20px;
+}
+
+.Me{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+}
+
+.Skills{
+    margin-left: 450px;
+    margin-right: 150px;
+}
+
+.Programm{
+    font-size: 20px;
+    list-style-type: circle;
+}
+
+.Skill{
+    font-size: 20px;
+    list-style-type: "♥ ";
+}
+
+.Lang{
+    font-size: 20px;
+    list-style-type: "▷ ";
+}
+
+.Lovely{
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.site{
+    text-align: justify;
+    margin-top: -20px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+table, th, td{
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px; 
+    text-align: center;
+    font-size: 20px;
+}
+
+nav{
+    font-size: 20px;
+    text-align: center;
+}
+
+.bottom{
+    background-color: rgba(193, 186, 221, 0.486);
+    width: 100%;
+    height: 70px;
+    text-align: right;
+    font-size: 50px;
+}
+
+th{
+    background-color: rgba(193, 186, 221, 0.486);
+    cursor: pointer;
+}
+
+tr:hover {
+    background-color: rgba(203, 171, 248, 0.486);
+}
+
+.add{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; /* Выстраивает элементы вертикально */
+    align-items: center;
+    width: 400px; /* Задает ширину контейнера */
+    margin: 20px auto; /* Центрирует контейнер на странице */
+    padding: 20px;
+    border: 1px solid #dddddd; /* Добавляет границу */
+    border-radius: 8px; /* Закругляет углы */
+    background-color: #b6b7ff70; /* Цвет фона контейнера */
+}
+
+.add label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Полная ширина для всех меток */
+    margin-bottom: 10px;
+}
+
+.add label span {
+    width: 100px; /* Фиксированная ширина для меток */
+    text-align: left;
+}
+
+.add input {
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+button {
+    background-color: #6c5ce7; /* Основной цвет кнопки */
+    color: white; /* Цвет текста */
+    padding: 10px 20px; /* Внутренние отступы */
+    font-size: 18px; /* Размер текста */
+    border: none; /* Убираем границу */
+    border-radius: 8px; /* Закругленные углы */
+    cursor: pointer; /* Курсор указателя при наведении */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Плавный переход */
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4c42d1; /* Цвет кнопки при наведении */
+    transform: scale(1.05); /* Небольшое увеличение при наведении */
+}
+
+button:active {
+    background-color: #3b32a6; /* Цвет при нажатии */
+    transform: scale(0.98); /* Легкое уменьшение при нажатии */
+}
+
+button:focus {
+    outline: none; /* Убираем обводку при фокусе */
+}
